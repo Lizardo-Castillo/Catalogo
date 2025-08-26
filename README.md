@@ -235,12 +235,16 @@ php artisan config:cache
 
 ## ✅ Si todo está bien...
 
-Deberías poder acceder al proyecto desde tu navegador:
+Cuando inicies el servidor de desarrollo de Laravel, verás un mensaje similar a este en la terminal:
+
+```bash
+INFO  Server running on [http://127.0.0.1:8000].
+```
+
+Esto indica que puedes acceder a tu aplicación desde tu navegador ingresando a:
 
 ```
-http://localhost:8000
+http://127.0.0.1:8000
 ```
-
----
 
 ¡Listo! 🎉 Ya tienes un entorno Laravel + React completamente funcional en tu máquina Windows.
